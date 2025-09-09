@@ -1,6 +1,7 @@
-# Gym Fitness Website | Modern Responsive Design
+8# Gym Fitness Website | Modern Responsive Design
 # gym-fitness-website
-💻 “As a Web Developer, I craft websites that don’t just look good — they perform, inspire, and convert. Here’s a fitness brand website I developed with a clean UI, responsive design, and engaging user experience.#WebDeveloper #FrontendDeveloper #ResponsiveDesign #WebsiteDesign  #ModernWebDesign #GymWebsite #FitnessWebsite  #FreelanceWebDeveloper `
+💻 “As a Web Developer, I craft websites that don’t just look good — they perform, inspire, and convert. Here’s a fitness brand website I developed with a clean UI, responsive design, and engaging user experience.#WebDeveloper #FrontendDeveloper #ResponsiveDesign #WebsiteDesign  #ModernWebDesign #GymWebsite #FitnessWebsite  #FreelanceWebDeveloper 
+https://github.com/gul251/enabling-change-project-web`
 A modern and responsive **Gym Fitness Website** built with HTML, CSS, and JavaScript.  
 Perfect for gyms, personal trainers, and fitness clubs. Includes responsive design,  
 membership plans, services, testimonials, and contact form.
@@ -20,7 +21,7 @@ JavaScript
 
 🚀 How to Run
 1. Clone this repo:  
-   `git clone https://github.com/yourusername/gym-fitness-website.git`  
+   `https://github.com/gul251/enabling-change-project-web
 2. Open `index.html` in your browser.
 
 📜 License
