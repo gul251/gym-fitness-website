@@ -1,0 +1,714 @@
+*{
+    flex-wrap: wrap;
+    font-family: bebas ,roboto;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+body{
+    flex-wrap: wrap;
+    background-color: black;
+   
+  
+}
+/*Black + Red → Power, strength, aggression
+
+Black = Authority, boldness
+
+Red = Energy, passion, intensity
+
+Black + Yellow → Strength + Motivation
+
+Yellow = Energy, positivity, warning vibe (construction style = strong)
+
+Dark Gray + Neon Green → Modern + Fitness vibe
+
+Neon Green = Energy, fresh, sporty
+
+Dark Gray = Balance & professionalism
+
+Navy Blue + Silver/White → Premium & Professional gym look
+
+Navy = Trust, discipline
+
+Silver/White = Clean & modern
+
+Orange + Black → High-energy & bold
+
+Orange = Activity, enthusiasm
+
+Black = Power & depth
+
+🎨 Color Codes Example (for CSS / Design)
+
+Red → #E50914
+
+Black → #0D0D0D
+
+Yellow → #FFC300
+
+Neon Green → #39FF14
+
+Dark Gray → #2E2E2E
+
+Navy Blue → #0A2647
+
+Silver → #C0C0C0
+
+Orange → #FF5733
+
+⚡ Tips:
+
+Main Title / Logo: Bold color (Red, Orange, or Neon Green)
+
+Background: Dark (Black / Dark Gray)
+
+Accent / Highlights: Yellow, White, or Silver*/
+
+.header{
+    flex-wrap: wrap;
+    display:flex;
+    color:white;
+     position: fixed;
+  top: 0;
+  background: black;
+  width:100%;
+  z-index: 900;
+
+ 
+}
+.logo{
+   padding-top: 15px;
+    margin-left:35px;
+}
+.logo img{
+    display: flex;
+     color:white;
+    width:61px;
+    padding-left: 14%;
+    font-size: 52px;
+   
+}
+.logo h3{
+    
+    font-size: 14px;
+    text-align: center;
+   font-family: poppins;
+}
+.nav{
+    font-family: poppins;
+    display :flex;
+    text-align :center ;
+    margin: auto;
+
+}
+.nav ul{
+    
+    display: flex;
+    display: inline-block;
+}
+.nav ul li{
+   
+   display: flex;
+    font-size: 16px;
+    padding: 15px 10px;
+  display: inline-block;  
+}
+.nav ul li a{
+     font-family: poppins;
+text-decoration: none;
+color: white;
+display: inline-block;
+}
+
+.nav ul li a:hover{
+    color: #f4f41d;
+}
+
+
+
+.btn{
+    margin-right: 25px;
+   padding-top: 15px ; 
+}
+.btn button{
+  background: none;
+    border: 2px solid white;
+    padding: 9px 10px;
+    border-radius: 4px;
+    
+}
+.btn button a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+.emailus{
+   
+    margin-left: 10px;
+}
+.callus:hover,.emailus:hover{
+  color:rgb(112, 112, 165);
+    background-color: rgb(97, 97, 97);
+}
+
+.main{
+    overflow: hidden;
+display: flex;
+flex-wrap: wrap;
+flex-shrink: ;
+
+}
+.main-image{
+    flex-wrap: wrap;
+    width:100%;
+    height:20%;
+    position: relative;
+    z-index: -1;
+    top:0;
+    justify-content: center;
+    display: flex;
+    filter: opacity(90%);
+}
+.main-text{
+    flex-wrap: wrap;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    display: block;
+}
+.main h1{
+    flex-wrap: wrap;
+    transform: translate(2%,70%);
+  top:30%;
+  padding-bottom:10px;
+  color:#f4f41d;
+    font-variant: large;
+    display: block;
+    font-size: 98px;
+    line-height: 78px;
+    margin-left: 40px;
+}
+.main h3{
+    flex-wrap: wrap;
+    transform: translate(2%,90%);
+    display: inline-block;
+    top:39%;
+  padding-bottom:10px;
+    display: block;
+    font-size: 72px;
+    color:white;
+    margin-left: 40px;
+    line-height: 60px;
+}
+.main p{
+    flex-wrap: wrap;
+     transform: translate(2%,220%);
+       font-family: roboto;
+    
+  padding-bottom:10px;
+    display: block;
+     color:white;
+    padding-left: 40px;
+    font-size: 14px;
+}
+.main button{
+    flex-wrap: wrap;
+     transform: translate(2%,250%);
+    font-family:popins;
+   display: block;
+    margin-left: 49px;
+    display: inline-block;
+    background-color: none;
+    margin-top: 20px;
+   
+}
+.main button a{
+    flex-wrap: wrap;
+    text-decoration: none;
+color:rgb(255, 254, 254);
+    
+   font-size: 20px;
+}
+.main button[type="apply"]{
+background-color: #f4f41d;
+border: none;
+ 
+  padding: 13px 30px;
+}
+.main-text button[type="Readmore"]  span{
+    color: #f4f41d;
+    font-size: 20px;    
+}
+
+.main button[type="Readmore"]
+{
+    transform: translate(2%,245%);
+    border: 1px solid #f4f41d ;
+    background-color: none;
+    color: white;
+ padding: 13px 30px;
+ background: none;
+}
+.main  button[type="apply"]:hover,.main button[type="Readmore"]:hover{
+    color:white;
+    background-color: rgb(115, 114, 114);
+}
+
+.yellow{
+    color:#f4f41d;
+}
+
+
+.Aboutus{
+    clear: both;
+    overflow: hidden;
+    flex-wrap: wrap;
+    padding-top: 10px;
+   
+    margin-left: 45px;
+    justify-content: center;
+    text-align: center;
+}
+.Aboutus h1{
+    margin-top: 50px;
+    flex-wrap: wrap;
+   overflow: hidden;
+    font-size: 75px;
+color:white;
+
+text-align: center;
+justify-content: center;
+
+}
+
+.Aboutus p{
+    flex-wrap: wrap;
+   padding-top: 10px;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    font-family: roboto;
+   
+    
+}
+.yellow1{
+    color: #f4f41d;
+    font-family: roboto;
+}
+
+.fitness{
+    margin-top: 80px;
+
+    margin-left: 45px;
+}
+.fitness h2{
+    padding-top: 30px;
+    color:#f4f41d;
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+.fitness p{
+    color:white;
+    font-family: roboto;
+    font-size: 15px;
+    
+}
+.white{
+    color:white;
+}
+
+.box{
+    
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: repeat(3,1fr);
+}
+.box1{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    border:1px solid #ffffff;
+    padding: 20px 20px;
+    border-radius: 10px;
+   margin-right: 85px;
+   margin-left: 85px;
+}
+.box1 h2{
+    justify-content: center;
+    text-align: center;
+    font-size: 65px;
+}
+.box1 h3{
+    color:white;
+    font-family:roboto;
+    text-align: center;
+}
+
+.hr{
+    color: #f4f41d;
+    width:50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   margin: 100px 300px;
+   border-color: #f4f41d;
+
+ 
+}
+
+
+
+.reviews{
+    background: none;
+  margin-right: 45px;
+    height:70%;
+    margin-left: 45px;
+    display:flex;
+    display: inline-block;
+}
+.reviews h2{
+    margin-top: 20px;
+    color: #f4f41d;
+    font-size: 52px;
+}
+.reviews h3{
+    color:white;
+    font-size: 28px;
+}
+.review-grid
+{
+    grid-template-columns: repeat(3,1fr);
+    display: flex;
+    
+    justify-content: flex-start;
+    gap:30px;
+    justify-items: center;
+}
+.review{
+    margin-bottom: 15px;
+   
+    margin-top: 20px;
+   
+    padding: 20px 80px;
+    flex:1;
+    justify-content: center;
+    justify-content: space-between;
+    
+    border : 1px solid #f4f41d; 
+}
+
+ .stars{
+font-size: 18px;
+    color:#f4f41d;
+ }
+.review p{
+    padding-top: 5px;
+    color:white;
+    font-family: roboto;
+    font-size: 16px;
+}
+.review p strong{
+   
+    color:#f4f41d;
+    font-family:roboto;
+    font-size: 18px;
+}
+
+.services{
+    margin-bottom: 50px;
+   
+    padding: 20px;
+}
+
+.services h1{
+    color: #f4f41d;
+    font-size: 62px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.service-box{
+     margin-left: 45px;
+      margin-right: 45px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 boxes per row */
+    gap: 10px; /* space between boxes */
+    justify-content: center;
+}
+
+.service-box1{
+    /* optional dark background */
+    margin: 10px 10px;
+    padding: 8px 8px;
+    border: 1px solid #f4f41d;
+    border-radius: 4px;
+    text-align: center;
+   
+}
+
+
+
+.service-box1 h2{
+    color: white;
+    margin: 10px 0;
+}
+
+.service-box1 p{
+    font-family: roboto, sans-serif;
+    color: #ddd;
+}
+
+.service-box1 img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+.contactus{
+ margin-bottom: 50px ;
+ margin-top: 10px ;
+ margin-left: 45px;
+
+}
+.contactus h2{
+     
+     margin-left: 45px;
+    color:#f4f41d;
+    font-size: 55px;
+}
+.contact-form{
+    justify-content: start;
+    margin-left: 45px;
+     display: block;
+  flex:1;
+   background: none;
+  
+}
+.input{
+    border:#f4f41d;
+    padding: 10px 100px;
+    background-color: none;
+    border: 1px solid #f4f41d;
+    margin-top: 20px;
+    display: block;
+    
+}
+.name,.phoneno,.email,.age,.address{
+    
+    font-family: roboto;
+       width:50%;
+    padding: 10px 20px;
+    background-color: none;
+    border: 1px solid #f4f41d;
+    margin-top: 20px;
+    display: block;
+border-radius: 4px;
+    background: none;
+    margin-left: 75px;
+}
+.name,.phoneno,.email,.age,.address {
+   color: white;
+}
+.name[placeholder='Enter your name'],.phoneno[placeholder='Enter your phone number'],.email[placeholder='Enter your Email'],.age[placeholder='Enter your age'],.address[placeholder='Enter your address']
+{
+    font-size: 16px;
+}
+.submit{
+   
+    justify-content: center;
+    color:black;
+    background-color: #f4f41d;
+    width:40%;
+    margin-left: 157px;
+    margin-top: 20px;
+    padding: 5px 20px;
+    border: none;
+    font-size: 29px;
+ border-radius: 4px;
+ cursor: pointer;
+}
+.submit:hover{
+    background-color: rgb(95, 94, 94);
+    color:white;
+}
+
+.map{
+    flex:1;
+    justify-content: flex-end;
+    width: 40%;
+    height: 10%;
+ display: flex;
+ margin-left: 115px;
+  border: 2px solid #f4f41d;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 60px;
+    
+}
+.map img{
+   margin-left: 75px;
+ justify-content: flex-end;
+    width: 30%;
+ flex: 1;
+ 
+  border: 2px solid #f4f41d;
+  border-radius: 8px;
+  overflow: hidden;
+    
+}
+.footer{
+
+   
+}
+.footer-logo{
+    margin-left: 25px;
+
+}
+.footer-logo img{
+    display: flex;
+    width:70px;
+   
+ padding-left:1.6%;
+  
+}
+.footer-logo h3{
+    font-family: poppins;
+    color:white;
+    font-size: 18px;
+}
+
+.footer-container{
+    display: flex;
+    margin-top: 30px;
+}
+.links{
+    flex: 1;
+   margin-left: 20%;
+    justify-content: center;
+}
+.links h3{
+    letter-spacing: 1px;
+    color:#f4f41d;
+   margin-bottom: 10px;
+   font-size: 22px;
+}
+.links ul{
+    display:block
+}
+.links ul li{
+    text-decoration: none;
+  
+}
+.links ul li a{
+     text-decoration: none;
+    font-family: roboto;
+    color: white;
+ padding-top: 5px;
+}
+
+.links ul li a:hover{
+    color:#6e6e6e;
+}
+
+.contact-information{
+flex: 1;
+}
+.contact-information h3{
+    color:#f4f41d;
+     letter-spacing:1px;
+     margin-bottom: 10px;
+     font-size: 22px;
+    
+}
+.contact-information h4{
+    color:white;
+    font-family: roboto;
+    font-weight: semi-bold;
+    font-size: 18px;
+    padding-top: 5px;
+}
+.contact-information p{
+    padding-top: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    color:rgb(236, 234, 234);
+    font-family: roboto;
+}
+.contact-information p:hover{
+    color:#6e6e6e;
+}
+
+.social{
+ 
+    flex:1;
+}
+.social h4{
+    color:#f4f41d;
+     letter-spacing: 1px;
+     font-size: 22px;
+     margin-bottom: 10px;
+}
+
+.social a{
+        padding: 5px 5px;
+  text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    font-family: roboto;
+    font-weight: bold;
+}
+.social a i{
+padding-right: 10px;
+       display: inline-block;
+    color:#ffffff;
+    font-size:18px;
+    
+}
+.social a i:hover{
+    color:#f4f41d;
+}
+.social p{
+    cursor: pointer;
+    font-size: 14px;
+    color:white;
+    font-family: roboto;
+}
+.social p:hover{
+    color: #6e6e6e;
+}
+
+.footer-hr{
+    border-color:#0e0d0d;
+    width:100%;
+    margin-top: 10px;
+    
+}
+.copyright{
+   margin-top: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.copyright p{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    color: rgb(201, 198, 198);
+    text-decoration: none;
+    font-family: roboto;
+    font-size: 14px;
+    padding-bottom: 10px;
+   
+}
+.copyright p a{
+   
+     justify-content: center;
+    text-align: center;
+  color: rgb(201, 198, 198);
+    text-decoration: none;
+      font-family: roboto;
+}
+.copyright p a:hover{
+    color:#f4f41d
+}
